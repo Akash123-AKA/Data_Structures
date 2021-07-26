@@ -20,7 +20,7 @@ public:
       temp->next=head;
       head=temp;
     }
-public:
+
     void printit()
     {
       Node *temp=head;
@@ -72,7 +72,7 @@ public:
       head=temp;
       return head;
     }
-public:
+
     void printit(Node *head)
     {
       Node *temp=head;
@@ -124,7 +124,7 @@ public:
       *head=temp;
 
     }
-public:
+
     void printit(Node **head)
     {
       Node *temp= *head;
